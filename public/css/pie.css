@@ -1,0 +1,32 @@
+/* ---- CSS del pie de pagina ---- */
+
+.fondo-pie{
+    background-color: #353535;
+    bottom: 0px;
+    width: 100%;
+
+  }
+  
+.nav-item a{
+    color: #fff;
+    text-decoration: none;
+}
+  
+.nav-item a p{
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    margin-bottom: 0px;
+    padding-left: 10px;
+}
+  
+.pie-pie{
+    border-top: 1px solid #fff;
+    color: #1d99d5;
+}
+  
+.juna{
+    font-family: 'Acme', sans-serif;
+    font-size: 40px;
+    color: #fff;
+    padding: 15px 8px 0px 8px;
+}

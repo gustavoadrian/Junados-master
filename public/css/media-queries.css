@@ -1,0 +1,58 @@
+/* ---- MEDIA QUERIES - RESPONSIVE -- CELULARES y TABLET---- */
+
+@media screen and (max-width: 460px){
+
+    .mr-auto{
+      margin-right: initial!important;
+    }
+  
+    .navbar-collapse{
+      justify-content: center;
+    }
+  
+    .navbar-collapse .btn{
+          display:none;
+    }
+    
+    .nav-item{
+      border-right: 0px;
+    }
+  
+    .nav-item a p{
+      display:none;
+    }
+  
+    .botones-inicio{
+      height: 100px;
+      line-height: 90px;
+      font-size: 20px;
+    }
+}
+  
+/* ---- MEDIA QUERIES - RESPONSIVE -- 1920X1080 y superiores---- */
+  
+@media screen and (min-width: 1500px){
+
+    .botones-inicio{
+      height: 150px;
+      margin: 20px 0px 20px 0px;
+      font-size: 30px;
+      border-radius: 20px;
+      line-height: 130px;
+    }
+
+    .letra-titulo{
+      font-family: 'Nunito', sans-serif;
+      font-size: 80px;
+      text-shadow: 1px 1px 2px #585757;
+    }
+  
+    .letra-subtitulo{
+      font-family: 'Nunito', sans-serif;
+      font-size: 40px;
+      color: #757879;
+      padding-bottom: 50px;
+    }
+}
+  
+/* ---- MEDIA QUERIES - RESPONSIVE -- solución a pantallas cuadradas---- */

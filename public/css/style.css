@@ -1,0 +1,227 @@
+html{
+  height: 100%;
+  position: relative;
+}
+
+body {
+    margin: 0;
+	  background-image: url("../img/fondo.jpg");
+	  background-repeat: no-repeat;
+	  background-position: center;
+	  background-size: cover;
+    background-attachment: fixed;
+    color: rgb(194, 194, 194);
+    font-family: 'Monserrat', sans-serif;
+    font-weight: 200;
+}
+
+.fondo-contenido{
+    background-color: rgba(256, 256, 256, .8);
+    min-height: 85vh;
+}
+.botonComunes{
+  height: 80px;
+}
+.filtroVacio{
+  font-family: 'Nunito', sans-serif;
+  font-size: 40px;
+  text-shadow: 1px 1px 2px #040404;
+  color:black;
+
+ }
+ .btn-circle.btn-xl {
+     /* width: 70px; */
+     height: 70px;
+     padding: 10px 16px;
+     border-radius: 35px;
+     font-size: 18px;
+     line-height: 1.33;
+}
+
+
+.boton-volver{
+  height: 50px;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 35px;
+  opacity: 0;
+  animation: entradaBotones 1s ease 1s forwards;
+}
+
+
+/* ---- Estilos: Inicio y paginas ---- */
+
+.letra-titulo{
+    font-family: 'Nunito', sans-serif;
+    font-size: 60px;
+    text-shadow: 1px 1px 2px #585757;
+    color: #4c4d4d;
+    opacity: 0;
+    padding-top: 50px;
+    animation: entradaTitulo 1s ease .5s forwards;
+}
+
+.letra-subtitulo{
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    color: #757879;
+    padding-bottom: 30px;
+    opacity: 0;
+    animation: entradaSubtitulo 1s ease .5s forwards;
+}
+
+.botones-inicio{
+	  width: 100%;
+    height: 120px;
+    margin: 20px 0px 20px 0px;
+    font-size: 25px;
+    border-radius: 20px;
+    line-height: 110px;
+    opacity: 0;
+    animation: entradaBotones 1s ease 1s forwards;
+}
+
+/* ---- Estilos: imagenes del PopPup ---- */
+
+.imagen-sector {
+	width: 100%;
+	height: auto;
+}
+
+.modal-title{
+  color: #353535;
+}
+.error{
+  font-size: 200px;
+  color: #000;
+}
+.errorText{
+  font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    
+  font-size: 60px;
+  color: #000;
+}
+
+.my-custom-scrollbar {
+  position: relative;
+  height: 400px;
+  overflow: auto;
+  }
+  .table-wrapper-scroll-y {
+  display: block;
+  }
+  /* tabla de comisiones */
+
+
+  .fondo_materia{
+    background-color: aliceblue;
+    border-radius: 30px 0px 0px 0px;
+    border: 2px solid #353535;
+    
+    }
+
+    .fondo-horario{
+      background: #1d99d5;
+      border-top: 2px solid #353535;
+      border-right: 2px solid #353535;
+    }
+    .materia{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color:black;
+    font-size: 20px;
+    }
+    .comision{
+    font-size: 18px;
+    margin-top: 0;
+    color: black;
+    }
+    .fondito{
+    background-color: #353535;
+    color: aliceblue;
+    border-radius: 0px 30px 30px 0px;
+    }
+    .btn-circle.btn-lp {
+    width: 50px;
+    height: 50px;
+    padding: 1px 1px;
+    font-size: 10px;
+    line-height: 1.33;
+    border-radius: 25px;
+    }
+    .letrasCirculoMapa{
+    font: oblique bold 120% cursive;
+    font-size: 11px;
+    margin-top: 0;
+    margin-bottom: 0;
+    }
+    .popupcomi{
+      font-family: 'Nunito', sans-serif;
+      font-size: 30px;
+      color: black;
+    }
+
+    .lista{
+      height: 500px;
+      overflow: scroll;
+      list-style-type: none;
+      padding-left: 0px;
+    }
+
+    .modal-footer{
+      justify-content: space-between;
+    }
+
+    .img-fluid{
+      border: 2px solid #000;
+    }
+
+    .boton-mapa-uni{
+      width: 100%;
+    }
+
+    .letra-titulo-materia{
+      font-family: 'Nunito', sans-serif;
+      font-size: 50px;
+      text-shadow: 1px 1px 2px #585757;
+      color: #4c4d4d;
+      opacity: 0;
+      padding-top: 50px;
+      padding-bottom: 40px;
+      animation: entradaTitulo 1s ease .5s forwards;
+    }
+
+    
+/* ---- Animaciones ---- */
+
+@keyframes entradaTitulo{
+    from{
+        transform: translateY(-25px);
+        opacity: 0;
+    }
+    to{
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes entradaSubtitulo{
+    from{
+        transform: translateY(25px);
+        opacity: 0;
+    }
+    to{
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes entradaBotones{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
